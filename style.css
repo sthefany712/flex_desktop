@@ -4,13 +4,13 @@
     --terciary-color: #A58863;
     --quarta-cor: #755F5B;
     --quinta-cor: #DBB084;
+    --sexta-cor:#3E2C26;
   
 }
 
 body {
     height: 100vh;
     background-color: var(--primary-color);
-    padding: 90px;
     font-family: Righteous, sans-serif;
     display: flex;
     flex-direction: column;
@@ -21,12 +21,32 @@ header {
     justify-content: space-between;
     
     gap: 16px;
-    background-color: white
-}
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px; }
+    
     
 header span {
+    font-size: 24px;
+    color: var(--secundary-color);   
+}
+
+.petala{
     font-size: 36px;
-    color: var(--secundary-color)
+    color: var(--secundary-color); 
+}
+
+.navegacao{
+        display: flex;
+        gap: 30px;
+        word-spacing: 10px;
+}
+
+.pesquisa i{
+    font-size: 34px;
+    color: var(--sexta-cor);
+
     
 }
 
@@ -36,3 +56,36 @@ main {
     display: flex;
     flex-direction: column;
 }
+
+h1 {
+    font-size: 40px;
+    color: var(--quinta-cor);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: left;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+.descricao h2 {
+    font-size: 64px;
+    color: var(--terciary-color);
+    margin-bottom: 40px;
+}
+.descricao p {
+    font-size: 26px;
+    color: var(--quinta-cor);
+}
+
+.button{
+     width: 310px;
+     height: 96px;
+     background-color: var(--quinta-cor);
+
+}
+
+.descricao span {
+    font-size: 50px;
+    color: white;
+}
+
