@@ -1,11 +1,12 @@
 :root {
     --primary-color: #EEDFE0;
-    --secundary-color:#6E5E5D;
+    --secundary-color: #6E5E5D;
     --terciary-color: #A58863;
     --quarta-cor: #755F5B;
     --quinta-cor: #DBB084;
-    --sexta-cor:#3E2C26;
-  
+    --sexta-cor: #3E2C26;
+    --setima-cor: #8B8080;
+
 }
 
 body {
@@ -19,55 +20,100 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    
     gap: 16px;
     padding-top: 35px;
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 20px; }
-    
-    
-header span {
+    padding-bottom: 20px;
     font-size: 24px;
-    color: var(--secundary-color);   
+    color: var(--secundary-color);
 }
 
-.petala{
+.petala {
     font-size: 36px;
-    color: var(--secundary-color); 
+    color: var(--secundary-color);
+    font-family: sans-serif;
 }
 
-.navegacao{
-        display: flex;
-        gap: 30px;
-        word-spacing: 10px;
+.navegacao {
+    display: flex;
+    gap: 30px;
+    word-spacing: 10px;
+    font-family: sans-serif;
 }
 
-.pesquisa i{
+.pesquisa i {
     font-size: 34px;
     color: var(--sexta-cor);
 
-    
+
 }
 
 main {
     background-color: tomato;
     flex-grow: 1;
     display: flex;
-    flex-direction: column;
+    
 }
 
-h1 {
-    font-size: 40px;
-    color: var(--quinta-cor);
-    margin-top: 40px;
-    margin-bottom: 40px;
-    text-align: left;
-    flex-grow: 1;
-    display: flex;
+.containerA {
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
     align-items: center;
+    
 }
-.descricao h2 {
+
+.containerA h1 {
+    font-size: 96px;
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 400px;
+    font-style: normal;
+    color: var(--terciary-color);
+    padding: 60px;
+    height: 100px;
+    
+}
+
+.containerA h2 {
+    font-size: 64px;
+    font-family: "Adamina", serif;
+    font-weight: 400px;
+    font-style: normal;
+    color: var(--secundary-color);
+    gap: 10x;
+    padding: 60px;
+    height: 120px;
+    background-color: yellow;
+}
+
+.containerA h3{
+    font-size: 26px;
+    margin-top: 15%;
+    color: var(--setima-cor);
+    font-family: "Adamina", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+    background-color: tomato;
+   
+    
+}
+
+.containerB {
+    background-color: aqua;
+    width: 50%;
+    height: 100%;
+  
+}
+
+
+
+
+
+
+/* .descricao h2 {
     font-size: 64px;
     color: var(--terciary-color);
     margin-bottom: 40px;
@@ -87,5 +133,4 @@ h1 {
 .descricao span {
     font-size: 50px;
     color: white;
-}
-
+} */
