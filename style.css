@@ -18,6 +18,7 @@ body {
 }
 
 header {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     gap: 16px;
@@ -30,7 +31,7 @@ header {
 }
 
 .petala {
-    font-size: 36px;
+    font-size: 1em;
     color: var(--secundary-color);
     font-family: sans-serif;
 }
@@ -45,45 +46,102 @@ header {
 .pesquisa i {
     font-size: 34px;
     color: var(--sexta-cor);
-
-
 }
 
 main {
+    position: relative;
     background-color: tomato;
     flex-grow: 1;
     display: flex;
 
+
 }
 
+.containerDireita {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    ;
 
-.containerA {
-   
-    width: 50%;
-    height: 100%;
+    background-color: lightgreen;
+}
+
+.containerEsquerda {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-   
+
+    background-color: lightcoral;
+}
+
+h1 {
+    display: flex;
+    font-size: 75px;
+    font-family: "Qwitcher Grypen", cursive;
+    color: var(--terciary-color);
+    padding: 4%;
+
+
+    background-color: lightskyblue;
+}
+
+h2 {
+    display: flex;
+    font-size: 80px;
+    font-family: "Adamina", serif;
+    color: #755F5B;
+    padding: 4%;
+
+    background-color: yellow;
+}
+
+p{
+    display: flex;
+    font-size: 26px;
+    color: var(--setima-cor);
+    font-family: "Adamina", serif;
+    padding: 4%;
+    background-color: aquamarine;
 
 }
 
-.containerA div {
+.button{
+    width: 200px;
+    height: 90px;
+    font-size: 30px;
+    color: white;
+    background-color: var(--quinta-cor);
+    margin-top: 4%;
+    margin-left: 5%;
+    
+
+
+    
+    
+   
+}
+
+
+
+/* .containerEsquerda div {
     display: flex;
    
 }
 
-.containerA h1 {
+.containerEsquerda h1 {
     font-size: 75px;
     font-family: "Qwitcher Grypen", cursive;
-    height: 20px;
+    height: 9%;
     font-style: normal;
     color: var(--terciary-color);
-    padding: 90px;
- 
-   
-}
-.containerA h2 {
-    font-size: 64px;
+    padding: 9%;}
+
+
+.containerEsquerda h2 {
+    font-size: 64%;
     font-family: "Adamina", serif;
     font-style: normal;
     color: var(--secundary-color);
@@ -91,7 +149,9 @@ main {
     background-color: yellow;
 }
 
-.containerA h3 {
+
+
+.containerEsquerda h3 {
     font-size: 26px;
     color: var(--setima-cor);
     font-family: "Adamina", serif;
@@ -101,7 +161,7 @@ main {
     background-color: aqua;
 
 }
-.containerB {
+.containerEsquerdaInferior {
     width: 100%;
     display: flex;
     justify-content: end;
@@ -122,19 +182,20 @@ main {
 
 }
 
-.containerB span {
+.containerEsquerdaInferior span {
     font-size: 30px;
     font-family: sans-serif;
     color: var(--quarta-cor);
     
 }
 
-.containerC {
-    
+.containerDireita {
+    display: flex;
+    justify-content: space-between;
     width: 50%;
-    height: 100%;
+    height: 50%;
 
-}
+} */
 
 
 
