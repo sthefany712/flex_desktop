@@ -23,15 +23,15 @@ header {
     justify-content: space-between;
     gap: 16px;
     padding-top: 35px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 20px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 55px;
     font-size: 24px;
     color: var(--secundary-color);
 }
 
 .petala {
-    font-size: 1em;
+    font-size: 2em;
     color: var(--secundary-color);
     font-family: sans-serif;
 }
@@ -41,6 +41,7 @@ header {
     gap: 30px;
     word-spacing: 10px;
     font-family: sans-serif;
+    font-size: 10px;
 }
 
 .pesquisa i {
@@ -50,21 +51,9 @@ header {
 
 main {
     position: relative;
-    background-color: tomato;
+    margin: 6px;
     flex-grow: 1;
     display: flex;
-
-
-}
-
-.containerDireita {
-    width: 80%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    ;
-
-    background-color: lightgreen;
 }
 
 .containerEsquerda {
@@ -72,30 +61,35 @@ main {
     height: 80%;
     display: flex;
     flex-direction: column;
+
+    background-color: yellow;
+}
+
+.containerDireita {
+    width: 80%;
+    /* height: 80vh; */
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+
 
     background-color: lightcoral;
 }
-
 h1 {
     display: flex;
     font-size: 75px;
     font-family: "Qwitcher Grypen", cursive;
     color: var(--terciary-color);
-    padding: 4%;
-
-
-    background-color: lightskyblue;
+    padding-left: 4%;
 }
 
 h2 {
     display: flex;
-    font-size: 80px;
+    font-size: 70px;
     font-family: "Adamina", serif;
     color: #755F5B;
-    padding: 4%;
-
-    background-color: yellow;
+    padding-left:  4%;
+   
 }
 
 p{
@@ -104,125 +98,47 @@ p{
     color: var(--setima-cor);
     font-family: "Adamina", serif;
     padding: 4%;
-    background-color: aquamarine;
-
 }
 
 .button{
-    width: 200px;
-    height: 90px;
+    width: 286px;
+    height: 84px;
     font-size: 30px;
     color: white;
     background-color: var(--quinta-cor);
-    margin-top: 4%;
-    margin-left: 5%;
-    
-
-
-    
-    
-   
+    margin: 4%;
+    border:none
 }
 
-
-
-/* .containerEsquerda div {
+.botoes{
     display: flex;
-   
-}
-
-.containerEsquerda h1 {
-    font-size: 75px;
-    font-family: "Qwitcher Grypen", cursive;
-    height: 9%;
-    font-style: normal;
-    color: var(--terciary-color);
-    padding: 9%;}
-
-
-.containerEsquerda h2 {
-    font-size: 64%;
-    font-family: "Adamina", serif;
-    font-style: normal;
-    color: var(--secundary-color);
-    padding: 60px;
-    background-color: yellow;
-}
-
-
-
-.containerEsquerda h3 {
-    font-size: 26px;
-    color: var(--setima-cor);
-    font-family: "Adamina", serif;
-    font-weight: 400;
-    font-style: normal;
-    padding: 20px;
-    background-color: aqua;
-
-}
-.containerEsquerdaInferior {
+    align-items: center;
+    gap: 2px;
     width: 100%;
-    display: flex;
-    justify-content: end;
-    background-color: aquamarine;
-    justify-content: left;
-    gap: 20px;
-    padding: 5%    
-}
-
-.button{
-    width: 310px;
-    height: 96px;
-    font-size: 30px;
-    color: white;
-    background-color: var(--quinta-cor);
-    
-    
-
-}
-
-.containerEsquerdaInferior span {
-    font-size: 30px;
-    font-family: sans-serif;
-    color: var(--quarta-cor);
-    
-}
-
-.containerDireita {
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
     height: 50%;
-
-} */
-
-
-
-
-
-
-
-
-
-/* .descricao h2 {
-    font-size: 64px;
-    color: var(--terciary-color);
-    margin-bottom: 40px;
+  
 }
-.descricao p {
-    font-size: 26px;
-    color: var(--quinta-cor);
+    .seta{
+        width: 97px;
+        height: auto;
+    }
+
+span{
+  font-family: "Radio Canada Big", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+    color: var(--quarta-cor);
 }
 
-.button{
-     width: 310px;
-     height: 96px;
-     background-color: var(--quinta-cor);
+.perfume{
+    width: 100%;
+
+   
+  
 
 }
 
-.descricao span {
-    font-size: 50px;
-    color: white;
-} */
+
+
