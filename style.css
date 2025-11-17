@@ -21,17 +21,15 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    gap: 16px;
-    padding-top: 35px;
+    margin: 1%;
     padding-left: 55px;
     padding-right: 55px;
-    padding-bottom: 55px;
-    font-size: 24px;
+    padding-bottom: 45px;
     color: var(--secundary-color);
 }
 
 .petala {
-    font-size: 2em;
+    font-size: 1.5em;
     color: var(--secundary-color);
     font-family: sans-serif;
 }
@@ -41,11 +39,11 @@ header {
     gap: 30px;
     word-spacing: 10px;
     font-family: sans-serif;
-    font-size: 10px;
+    font-size: 1em;
 }
 
 .pesquisa i {
-    font-size: 34px;
+    font-size: 150%;
     color: var(--sexta-cor);
 }
 
@@ -54,59 +52,55 @@ main {
     margin: 6px;
     flex-grow: 1;
     display: flex;
+
 }
 
-.containerEsquerda {
+.container {
     width: 80%;
     height: 80%;
     display: flex;
     flex-direction: column;
-
-    background-color: yellow;
-}
-
-.containerDireita {
-    width: 80%;
-    /* height: 80vh; */
-    display: flex;
-    flex-direction: column;
     justify-content: center;
 
-
-    background-color: lightcoral;
+    /* background-color: yellow; */
 }
+
 h1 {
     display: flex;
-    font-size: 75px;
+    justify-content: left;
+    font-size: 4em;
     font-family: "Qwitcher Grypen", cursive;
     color: var(--terciary-color);
-    padding-left: 4%;
+    margin-left: 53px;
 }
 
 h2 {
     display: flex;
-    font-size: 70px;
+    justify-content: left;
+    font-size: 2em;
     font-family: "Adamina", serif;
     color: #755F5B;
-    padding-left:  4%;
+    margin-left: 53px;
    
 }
 
 p{
     display: flex;
-    font-size: 26px;
+    justify-content: left;
+    font-size: 1em;
     color: var(--setima-cor);
     font-family: "Adamina", serif;
     padding: 4%;
+    margin-left: 23px;
 }
 
 .button{
-    width: 286px;
-    height: 84px;
-    font-size: 30px;
-    color: white;
+    width: 239px;
+    height: 52px;
+    font-size: 1.2em;
+    color: rgb(254, 250, 250);
     background-color: var(--quinta-cor);
-    margin: 4%;
+    margin: 7%;
     border:none
 }
 
@@ -114,13 +108,14 @@ p{
     display: flex;
     align-items: center;
     gap: 2px;
-    width: 100%;
-    height: 50%;
+    font-size: 1.4em;
+  
   
 }
     .seta{
-        width: 97px;
-        height: auto;
+        width: 65px;
+        height: 65px;
+
     }
 
 span{
@@ -134,11 +129,16 @@ span{
 
 .perfume{
     width: 100%;
-
-   
-  
-
+    width: 57%;
+    height: auto;
+    margin-left: 153px;
 }
+.rodape{ 
+    width: 65%;
+    height: 98%;
+    margin-top: 0px;
+    margin-left: 85px;
+ }
 
 
 
