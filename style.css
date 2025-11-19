@@ -10,7 +10,7 @@
 
 body {
     max-width: 1105px;
-    background-image: linear-gradient(to bottom right, var(--primary-color), #F8EEE6);
+    background-image:  linear-gradient(to right, var(--primary-color), #F8EEE6);
     font-family: Righteous, sans-serif;
     display: flex;
     flex-direction: column;
